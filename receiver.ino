@@ -1,4 +1,4 @@
-  const int ldrPin = A0;
+const int ldrPin = A0;
 const int threshold = 70; //70
 const int size = 8;
 const int ledDelay = 22;
@@ -51,7 +51,6 @@ void loop() {
 //    }
 //    Serial.println("");
 
-
     // Decoder
     for (int i = 1; i < size; i++) {
       code += String(readings[i]);
@@ -59,7 +58,7 @@ void loop() {
 
     if (code == "1011100"){
       Serial.println("");
-    }else{
+    } else{
       int num = strtol(code.c_str(), NULL, 2);
       c = String(char(num));
       Serial.print(c); 
