@@ -9,6 +9,7 @@ This project implements a **Light-Dependent Resistor (LDR)-based binary decoder*
 - 🔌 **Resistor** (appropriate value to form a voltage divider with the LDR)
 - 💡 **Light Source** (LED or another light-emitting device)
 - 🔗 **Jumper Wires**
+!(Receiver Schematic)[https://github.com/PrajwalUlli/LiFi/blob/main/receiver%20schematic.png]
 
 ## 🛠️ How It Works
 1. **📡 Light Intensity Measurement:** The LDR, connected to **analog pin A0**, continuously reads light intensity levels.
